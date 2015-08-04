@@ -129,6 +129,11 @@
                     </jvmFlags -->
                 </configuration>
             </plugin>
+              <plugin>
+                <groupId>com.google.appengine</groupId>
+                <artifactId>gcloud-maven-plugin</artifactId>
+                <version>0.9.68.v20150707</version>
+            </plugin>
         </plugins>
     </build>
 </project>
